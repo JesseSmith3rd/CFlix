@@ -7,54 +7,100 @@
 }
 
 .logo{
-  float: left;
+    float: left;
     display:inline-block;
     background: red;
     padding:20px;
     margin-right: 25px;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 .leftMenu{
-  float:left;
+    float:left;
     display:inline-block;
     background: black;
 }
 
 .leftMenu ul{
-  list-style: none;
-  padding: 0;
-  margin:0;
+    list-style: none;
+    padding: 0;
+    margin:0;
 }
 
 .leftMenu ul li{
-  display: inline-block;
-  padding:20px;
+    display: inline-block;
+    padding:20px;
+}
+
+.leftMenu ul li a{
+    color:white;
 }
 
 .rightMenu{
-  float:right;
+    float:right;
     display:inline-block;
     color: black;
-    background: yellow;
+    background: black;
 }
 
 .rightMenu ul{
-  list-style: none;
-  padding: 0;
-  margin:0;
+    list-style: none;
+    padding: 0;
+    margin:0;
 }
 
 .rightMenu ul li{
-  display: inline-block;
-  padding:20px;
+    display: inline-block;
+    padding:20px;
+}
+
+.rightMenu ul li a{
+  color: white;
 }
 
 #largeImage{
-  padding:200px 25px;
-  background: url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding:200px 25px;
+    background: url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.description-box{
+    width:50%
+}
 
+.description-box h1{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.description-box h3{
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.description-box h4{
+    font-family: helvetica;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+}
+
+.description-box p{
+    margin-top: 25px;
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+    margin: 0;
 }
