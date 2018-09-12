@@ -17,7 +17,7 @@
 .leftMenu{
   float:left;
     display:inline-block;
-    background: blue;
+    background: black;
 }
 
 .leftMenu ul{
@@ -47,4 +47,14 @@
 .rightMenu ul li{
   display: inline-block;
   padding:20px;
+}
+
+#largeImage{
+  padding:200px 25px;
+  background: url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
