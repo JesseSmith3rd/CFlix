@@ -1,0 +1,27 @@
+#header {
+    background: black;
+    color: white;
+    overflow:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo{
+  float: left;
+    display:inline-block;
+    background: red;
+    margin-right: 25px;
+}
+
+.leftMenu{
+  float:left;
+    display:inline-block;
+    background: blue;
+}
+
+.rightMenu{
+  float:right;
+    display:inline-block;
+    color: black;
+    background: yellow;
+}
