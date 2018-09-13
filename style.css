@@ -63,12 +63,14 @@ a{
 
 #largeImage{
     padding:200px 25px;
-    background: url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center;
+    background:  -webkit-linear-gradient(45deg, rgba(231, 31, 17, .7) 0%, #8f0222 80%,#000000 100%),
+      url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 .description-box{
     width:50%
 }
