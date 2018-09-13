@@ -14,8 +14,13 @@
     margin-right: 25px;
 }
 
-a{
+#header a{
+  font-family: helvetica;
   text-decoration: none !important;
+}
+
+#header a:hover{
+  color: red;
 }
 
 .leftMenu{
@@ -37,6 +42,10 @@ a{
 
 .leftMenu ul li a{
     color:white;
+}
+
+.leftMenu ul li a.dropdown{
+    color:red;
 }
 
 .rightMenu{
@@ -63,7 +72,7 @@ a{
 
 #largeImage{
     padding:200px 25px;
-    background:  -webkit-linear-gradient(45deg, rgba(231, 31, 17, .7) 0%, #8f0222 80%,#000000 100%),
+    background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.9) 0%,rgba(14,14,14,0.88) 100%),
       url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -104,5 +113,30 @@ a{
     font-weight: 100;
     font-size: 18px;
     color: white;
-    margin: 0;
+    margin: 0 0 50px 0;
+}
+
+.button1{
+  display: inline-block;
+  padding: 12px 20px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button2{
+  display: inline-block;
+  padding: 10px 18px;
+  border: 2px solid #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button1:hover{
+  background: rgba(0, 0, 0,.6);
+}
+
+.button2:hover{
+  background: rgba(0, 0, 0,.6);
+  border: 2px solid rgba(0, 0, 0,.6);
 }
