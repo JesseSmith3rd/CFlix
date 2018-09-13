@@ -1,3 +1,7 @@
+* {
+  box-sizing:border-box;
+}
+
 #header {
     background: black;
     color: white;
@@ -72,8 +76,8 @@
 
 #largeImage{
     padding:200px 25px;
-    background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.9) 0%,rgba(14,14,14,0.88) 100%),
-      url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center fixed;
+    background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
+      url(http://www.recipeapart.com/wp-content/uploads/2009/09/transformers_1600x1200.jpg) no-repeat left center Fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -139,4 +143,75 @@
 .button2:hover{
   background: rgba(0, 0, 0,.6);
   border: 2px solid rgba(0, 0, 0,.6);
+}
+
+#videoSection {
+  width: 100%;
+  background: black;
+}
+
+.row{
+  font-size: 0;
+  width:100%;
+}
+
+.videoBoxes{
+  display: inline-block;
+  background: red;
+  width: 17.5%;
+  height: 150px;
+  font-size: 16px;
+  margin:2.5%;
+  padding:15px;
+}
+
+.videoBoxes h4{
+  color: white;
+  font-family: serif;
+  margin: 0;
+}
+
+.video1{
+  background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
+    url(https://postergirlpress.com/wp-content/uploads/2018/04/horizontal-movie-posters-bane-batman-standoff-the-dark-knight-rises-wall-poster1.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video2{
+  background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
+    url(https://www.thehdroom.com/wp-content/uploads/2015/10/star-wars-the-force-awakens-poster-horizontal.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video3{
+  background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
+    url(https://www.filmfetish.com/img/p/2018/04/avengers-infinity-war-poster-16447-1.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video4{
+  background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
+    url(http://www.notoriuscinema.it/immagini/categorie/poster/5028486130948.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video5{
+  background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
+    url(http://www.kaijucast.com/wp-content/uploads/2013/07/horizontal_gipsy_danger_poster1280.jpg) no-repeat left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
