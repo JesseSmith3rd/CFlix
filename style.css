@@ -158,22 +158,29 @@
 .videoBoxes{
   display: inline-block;
   background: red;
-  width: 17.5%;
-  height: 150px;
+  width: 300px;
+  min-height: 150px;
   font-size: 16px;
   margin:2.5%;
   padding:15px;
 }
 
 .videoBoxes h4{
-  color: white;
-  font-family: serif;
+  font-family: helvetica;
+  font-weight: 100;
   margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+}
+
+.videoBoxes p{
+  display: none;
 }
 
 .video1{
   background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
-    url(https://postergirlpress.com/wp-content/uploads/2018/04/horizontal-movie-posters-bane-batman-standoff-the-dark-knight-rises-wall-poster1.jpg) no-repeat left center;
+    url(https://www.heyuguys.com/images/2012/05/The-Dark-Knight-Rises-Banner-Batman-Bane-Face-OFf.jpg) no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -200,7 +207,7 @@
 
 .video4{
   background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
-    url(http://www.notoriuscinema.it/immagini/categorie/poster/5028486130948.jpg) no-repeat left center;
+    url(https://www.tvweek.com/wp-content/uploads/2016/07/harry-potter-and-the-sorcerers-stone-movie-poster.jpg) no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -209,9 +216,32 @@
 
 .video5{
   background: -webkit-linear-gradient(45deg, rgba(224,14,0,0.4) 0%,rgba(14,14,14,0.88) 100%),
-    url(http://www.kaijucast.com/wp-content/uploads/2013/07/horizontal_gipsy_danger_poster1280.jpg) no-repeat left center;
+    url(https://wallpapershome.com/images/pages/pic_hs/17602.jpg) no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+/* For mobile*/
+@media screen and (min-width: 600px) {
+  .videoBoxes{
+    width: 95%;
+    margin: 2.5%;
+  }
+  .videoBoxes h4{
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 40px;
+  }
+  .videoBoxes p{
+    display: block;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+  }
+}
+
+#fafa-bell{
+  color: white;
 }
