@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-const users = [
+ users = [
   {
     first_name: 'John',
     last_name: 'Smith'
@@ -26,5 +26,6 @@ app.listen(8888, function () {
 
 function myFunction() {
   var x =  document.getElementsByClassName("description-box");
-  x[0].innerHTML = "https://www.youtube.com/watch?v=KrUhwet0ngg";
+  x = "C:\Users\Johnny 2\Pictures\Computer-Science_10282016";
+  console.log(x);
 }
