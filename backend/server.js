@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
- users = [
+ const users = [
   {
     first_name: 'John',
     last_name: 'Smith'
@@ -27,5 +27,5 @@ app.listen(8888, function () {
 function myFunction() {
   var x =  document.getElementsByClassName("description-box");
   x = "C:\Users\Johnny 2\Pictures\Computer-Science_10282016";
-  console.log(x);
+  console.log(x );
 }
