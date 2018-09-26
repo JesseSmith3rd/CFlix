@@ -1,3 +1,11 @@
+p{
+  color:blue;
+  margin: 8px;
+}
+b {
+  color:red;
+}
+
 * {
   box-sizing:border-box;
 }

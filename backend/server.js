@@ -32,6 +32,10 @@ app.get('/', function (req, res) {
   {
     first_name: 'Tim',
     last_name: 'Johnson'
+  },
+  {
+    first_name: 'Jacob',
+    last_name: 'Eason'
   }
 ];
 
