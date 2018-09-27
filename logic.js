@@ -14,3 +14,18 @@ $(document).ready(function () {
     };
   });
 });
+
+window.onload = function()
+{
+  if(document.addEventListener) {
+     document.getElementById('button1').addEventListener('click', clickHandler, false)
+  }
+  else
+  {
+    document.getElementById('button1').addEventListener('click', clickHandler, false)
+  }
+};
+function clickHandler()
+{
+  alert('It works');
+}

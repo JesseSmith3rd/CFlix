@@ -128,7 +128,7 @@ b {
     margin: 0 0 50px 0;
 }
 
-.button1{
+#button1{
   display: inline-block;
   padding: 12px 20px;
   background: #000;
@@ -138,14 +138,16 @@ b {
 
 .button2{
   display: inline-block;
-  padding: 10px 18px;
-  border: 2px solid #000;
+  padding: 12px 20px;
+  /* border: 2px solid #000; */
+  background: #000;
   color: #fff;
   cursor: pointer;
 }
 
-.button1:hover{
+#button1:hover{
   background: rgba(0, 0, 0,.6);
+  border: 2px solid rgba(0, 0, 0,.6);
 }
 
 .button2:hover{
