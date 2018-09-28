@@ -26,6 +26,7 @@ b {
     margin-right: 25px;
 }
 
+
 #header a{
   font-family: helvetica;
   text-decoration: none !important;
@@ -150,6 +151,7 @@ b {
   border: 2px solid rgba(0, 0, 0,.6);
 }
 
+.
 .button2:hover{
   background: rgba(0, 0, 0,.6);
   border: 2px solid rgba(0, 0, 0,.6);
@@ -250,4 +252,134 @@ b {
     font-size: 20px;
     color: white;
   }
+}
+
+.logo2{
+    text-align: center;
+    color: red;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 1.1em;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.cflix-pricing{
+  font-weight: 400px;
+  font-size: 30px;
+  list-style: 1.25em;
+  margin: 0 0 30px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.cflix-form{
+  display: inline-block;
+  position: relative;
+}
+
+form{
+  margin-top: 0em;
+}
+
+input{
+  line-height:normal;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  font-style: inherit;
+  font-variant-ligatures:inherit;
+  font-variant-caps: inherit;
+  font-variant-numeric: inherit;
+  font-variant-east-asian: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.btn-red{
+  color:#fff;
+  background-color: #e50914;
+  background-image: linear-gradient(to bottom, #e50914, #db0510);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+    text-decoration-line:none;
+    text-decoration-style:initial;
+    text-decoration-color: initial;
+  line-height: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius:2px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+  box-sizing: border-box;
+  border: 0;
+    /* border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    position: relative;
+  color: #000;
+  background-color: #e6e6e6;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#e6e6e6),to(#ddd));
+background-image: -webkit-linear-gradient(top,#e6e6e6,#ddd);
+background-image: -moz-linear-gradient(top,#e6e6e6,#ddd);
+background-image: -o-linear-gradient(top,#e6e6e6,#ddd);
+background-image: linear-gradient(to bottom,#e6e6e6,#ddd);
+-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2);
+-moz-box-shadow: 0 1px 0 rgba(0,0,0,.2);
+box-shadow: 0 1px 0 rgba(0,0,0,.2); */
+}
+
+
+p {
+    color: blue;
+    margin: 8px;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#header {
+    background: black;
+    color: white;
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
