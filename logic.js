@@ -29,3 +29,12 @@ function clickHandler()
 {
   alert('It works');
 }
+
+var video = $('<video />', {
+    id:'video',
+    src: 'https://video.js.zencoder.com/oceeans-clip.mp4',
+    type: 'video/mp4',
+    controls: true
+});
+
+video.appendTo($('gallery'));
